@@ -3,9 +3,9 @@ from twilio.rest import Client
 
 def notifyPrice(value):
     # Your Account SID from twilio.com/console
-    account_sid = "AC81e964bb9a7cdd8d54dbc1dabaca5884"
+    account_sid = "xxx"
     # Your Auth Token from twilio.com/console
-    auth_token = "1b11f263e614a7f424d1d9c2f90e937d"
+    auth_token = "xxx"
 
     client = Client(account_sid, auth_token)
 
